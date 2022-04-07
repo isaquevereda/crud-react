@@ -27,7 +27,8 @@ export default function FormDialog(props) {
     };
 
     const handleDeleteGame = () => {
-
+      Axios.delete(`http://localhost:3001/delete/${editValues.id}`);
+      handleClose();
     };
 
     const handleClickOpen = () => {
@@ -41,7 +42,7 @@ export default function FormDialog(props) {
     const handleChangeValues = values => {
         setEditValues(prevValues => ({
             ...prevValues,
-            [value.target.id]: value.target.value,
+            [values.target.id]: values.target.value,
         }))
     }
   return (

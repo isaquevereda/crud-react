@@ -16,6 +16,7 @@ function App() {
 
   const handleClickButton = () => {
     Axios.post("http://localhost:3001/register", values).then((response) =>{
+      document.querySelector()
       console.log(response);
     })
   }
