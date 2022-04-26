@@ -60,3 +60,53 @@ Recebe dois números e retorna a sua soma.
 
 
 
+
+## Rodando localmente
+
+Clone o projeto
+
+```bash
+  git clone https://github.com/isaquevereda/crud-react.git
+```
+
+Entre no diretório do projeto
+
+```bash
+  cd crud-react
+```
+
+Necessario instalar dependências do client.
+
+```bash
+  cd client
+```
+
+```bash
+  npm install
+```
+
+Inicie o cliente
+
+```bash
+  npm run start
+```
+
+Necessario instalar dependências do server.
+
+```bash
+  cd server
+```
+
+```bash
+  npm install
+```
+
+Inicie o servidor
+
+```bash
+  npm run dev
+```
+## Autores
+
+- [@isaquevereda](https://github.com/isaquevereda)
+
