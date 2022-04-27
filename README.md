@@ -4,6 +4,52 @@
 Desenvolvimento de uma apliação, constituida pelo front-end com ReactJS e as API's desenvolvidas com NodeJS, projeto foi desenvolvido baseado em uma loja de jogos, onde podemos, disponilizar nome do jogo, valor do jogo e categoria.
 
 
+## Rodando localmente
+
+Clone o projeto
+
+```bash
+  git clone https://github.com/isaquevereda/crud-react.git
+```
+
+Entre no diretório do projeto
+
+```bash
+  cd crud-react
+```
+
+Necessario instalar dependências do client.
+
+```bash
+  cd client
+```
+
+```bash
+  npm install
+```
+
+Inicie o cliente
+
+```bash
+  npm run start
+```
+
+Necessario instalar dependências do server.
+
+```bash
+  cd server
+```
+
+```bash
+  npm install
+```
+
+Inicie o servidor
+
+```bash
+  npm run dev
+```
+
 ## Documentação da API
 
 #### Retorna todos os itens
@@ -58,54 +104,6 @@ Recebe dois números e retorna a sua soma.
 | :---------- | :--------- | :------------------------------------------ |
 | `id`      | `int` | **Obrigatório**. O ID do item que você quer |
 
-
-
-
-## Rodando localmente
-
-Clone o projeto
-
-```bash
-  git clone https://github.com/isaquevereda/crud-react.git
-```
-
-Entre no diretório do projeto
-
-```bash
-  cd crud-react
-```
-
-Necessario instalar dependências do client.
-
-```bash
-  cd client
-```
-
-```bash
-  npm install
-```
-
-Inicie o cliente
-
-```bash
-  npm run start
-```
-
-Necessario instalar dependências do server.
-
-```bash
-  cd server
-```
-
-```bash
-  npm install
-```
-
-Inicie o servidor
-
-```bash
-  npm run dev
-```
 ## Autores
 
 - [@isaquevereda](https://github.com/isaquevereda)
